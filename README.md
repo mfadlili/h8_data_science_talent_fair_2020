@@ -8,7 +8,7 @@ Pada proyek ini, dilakukan:
 
 3. Analisis RFM untuk menentukan nilai Recency, Frequency dan Monetary dari tiap-tiap pelanggan.
 
-Apabila anda hendak menjalankan file .ipynb ataupun .py di lokal, harap mengekstrak file dengan fromat rar terlebih dahulu
+Apabila anda hendak menjalankan file .ipynb ataupun .py di lokal, harap mengekstrak file dengan format rar terlebih dahulu.
 
 ## Link Deployment
 

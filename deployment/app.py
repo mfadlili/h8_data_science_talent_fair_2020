@@ -20,7 +20,9 @@ selected = st.sidebar.selectbox('Select Page: ', ['Business Overview', 'Cohort &
 
 @st.cache(allow_output_mutation=True)
 def load_data1():
-    data = pd.read_csv('user-events2.csv')
+    data1 = pd.read_csv('user-events1.csv')
+    data2 = pd.read_csv('user-events2.csv')
+    data = pd.concat([data1, data2])
     return data
 
 @st.cache(allow_output_mutation=True)

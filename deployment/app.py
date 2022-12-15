@@ -20,8 +20,8 @@ selected = st.sidebar.selectbox('Select Page: ', ['Business Overview', 'Cohort &
 
 @st.cache(allow_output_mutation=True)
 def load_data1():
-    data1 = pd.read_csv('user-events1.csv')
-    data2 = pd.read_csv('user-events2.csv')
+    data1 = pd.read_csv('https://raw.githubusercontent.com/mfadlili/h8_data_science_talent_fair_2020/main/deployment/user-events1.csv')
+    data2 = pd.read_csv('https://raw.githubusercontent.com/mfadlili/h8_data_science_talent_fair_2020/main/deployment/user-events2.csv')
     data = pd.concat([data1, data2])
     return data
 
